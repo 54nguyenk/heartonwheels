@@ -1,0 +1,17 @@
+int RPin = 5;
+int GPin = 6;
+
+int high = 180;
+int low = 45;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(RPin,OUTPUT);
+  pinMode(GPin,OUTPUT);
+  
+}
+
+void loop() {
+  analogWrite(RPin,low);
+  analogWrite(GPin,high);
+
+}
