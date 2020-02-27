@@ -1,0 +1,14 @@
+int SPin = 6;
+
+int high = 200;
+int low = 100;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(SPin,OUTPUT);
+  
+}
+
+void loop() {
+  analogWrite(SPin,high);
+
+}
